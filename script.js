@@ -76,7 +76,7 @@ btnHold.addEventListener('click', function () {
   document.getElementById(`score--${currentPlyer}`).textContent =
     totalScore[currentPlyer];
   // check if the totall score is >= 100
-  if (totalScore[currentPlyer] >= 10) {
+  if (totalScore[currentPlyer] >= 100) {
     gameActive = false;
     diceImage.classList.add('hidden');
 
